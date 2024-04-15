@@ -1,0 +1,24 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="prime:twitter" clip-path="url(#clip0_736_3426)">
+<rect width="24" height="24" transform="translate(0 0.499512)" fill="black"/>
+<g id="Group">
+<g id="Clip path group">
+<mask id="mask0_736_3426" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="25">
+<g id="primeTwitter0">
+<path id="Vector" d="M0 0.499512H24V24.4995H0V0.499512Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_736_3426)">
+<g id="Group_2">
+<path id="Vector_2" d="M18.9 1.62402H22.5806L14.5406 10.8366L24 23.3749H16.5943L10.7897 15.772L4.15543 23.3749H0.471429L9.07029 13.5177L0 1.62574H7.59429L12.8331 8.57374L18.9 1.62402ZM17.6057 21.1669H19.6457L6.48 3.71717H4.29257L17.6057 21.1669Z" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_736_3426">
+<rect width="24" height="24" fill="white" transform="translate(0 0.499512)"/>
+</clipPath>
+</defs>
+</svg>
