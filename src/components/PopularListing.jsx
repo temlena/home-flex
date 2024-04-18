@@ -1,6 +1,6 @@
 import popularData from "./popularListingData";
 import icon from "../assets/Arrow 1.svg"
-import iconv from "../assets/verified-icon.svg"
+import iconv from "../assets/iconoir_verified-user.png"
 export default function Popular()  {
     return (
         <section>
@@ -21,12 +21,12 @@ export default function Popular()  {
                     
                     <p className="text-title-colour">{listings.title}</p>
                     <small className="text-popular-colour text-base font-normal">{listings.description}</small>
-                    <button className="flex items-center text-text bg-popular-colour py-1 px-2 rounded border-none font-normal text-xs "> <img className="w-4 h-4" src={iconv} alt="" />VERIFIED ID</button>
+                    <button className="flex items-center text-text bg-popular-colour py-1 px-1  rounded border-none font-light text-xs "> <img className="w-4 h-4" src={iconv} alt="" />VERIFIED ID</button>
                     
                     <div>
                         <ul className="flex gap-1">
                           {listings.houseFeatures.map((item,index)=>(
-                            <li className="text-xs" key={index}>{item}</li>
+                            <li className="text-xs" key={index}> <small>{item} </small></li>
                           ))}
                           
                         </ul>

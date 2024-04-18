@@ -1,3 +1,4 @@
+import Dashboard from "./components/Dashboard";
 import Download from "./components/Download";
 import Features from "./components/FeatureListing";
 import Footer from "./components/Footer";
@@ -23,6 +24,7 @@ function App() {
     <Questions/>
     <Download/>
     <Footer/>
+    <Dashboard/>
     </>
 );
 }

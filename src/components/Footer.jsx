@@ -1,5 +1,4 @@
-import  logo  from "../assets/Logo.svg";
-import  logo2  from "../assets/Home Flex.png";
+import homeflex from "../assets/white varaint logo.svg"
 import  appLogo  from "../assets/app-store 1.svg";
 import  playLogo from "../assets/google-play 1.svg";
 import  facebook  from "../assets/facebook.svg";
@@ -13,9 +12,8 @@ export default function Footer()  {
         <footer className=" px-10 py-8 bg-primary text-text">
             <div className="flex px-6 justify-between items-center">
             <div>
-        <img src={logo} alt="homeflex logo" />
-        <img src={logo2} alt="homeflex logo" />
-      </div>
+            <img className="w-20" src={homeflex} alt="homeflex logo" />
+            </div>
  <div className=" font-normal text-sm">
     <ul>
         <li className="my-1">
