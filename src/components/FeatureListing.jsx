@@ -32,29 +32,29 @@ export default function Features() {
                 />
               </div>
               <div className="bg-text p-1 ">
-              <div className="flex justify-between">
-                <img src={feature.feature} alt=" camera-icon" />
-                <img className="w-4" src={feature.likes} alt="like-icon" />
-              </div>
-              <div className="py-1">
-              <button className="text-text bg-popular-colour py-1 px-2 rounded border-none font-normal text-xs flex items-center">
-                <img className="w-4 h-4" src={iconv} alt="" />
-                VERIFIED ID
-              </button>
-                <p className="text-title-colour">{feature.title}</p>
-                <small className="text-popular-colour text-base font-normal">
-                  {feature.description}
-                </small>
-          
-                <ul className="flex gap-1 ">
-                  {feature.houseFeatures.map((item, index) => (
-                    <li className="text-xs" key={index}>
-                       <small>{item}</small>
-                    </li>
-                  ))}
-                </ul>
+                <div className="flex justify-between">
+                  <img src={feature.feature} alt=" camera-icon" />
+                  <img className="w-4" src={feature.likes} alt="like-icon" />
                 </div>
-            </div>
+                <div className="py-1">
+                  <button className="text-text bg-popular-colour py-1 px-2 rounded border-none font-normal text-xs flex items-center">
+                    <img className="w-4 h-4" src={iconv} alt="" />
+                    VERIFIED ID
+                  </button>
+                  <p className="text-title-colour">{feature.title}</p>
+                  <small className="text-popular-colour text-base font-normal">
+                    {feature.description}
+                  </small>
+
+                  <ul className="flex gap-1 ">
+                    {feature.houseFeatures.map((item, index) => (
+                      <li className="text-xs" key={index}>
+                        <small>{item}</small>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
             </div>
           ))}
         </div>
