@@ -56,7 +56,7 @@ export default function Dashboard() {
                     val.Status === "Successful"
                       ? "text-popular-colour"
                       : "text-error"
-                  } text-xl font-medium`}
+                  } text-base font-normal`}
                 >
                   {val.Status}
                 </td>

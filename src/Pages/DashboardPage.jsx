@@ -1,10 +1,10 @@
 import Dashboard from "../components/Dashboard";
-import Header from "../components/Header";
+import HeaderUser from "../components/HeaderUser";
 
 export default function DashboardPage(){
     return(
         <>
-        <Header/>
+        <HeaderUser/>
         <Dashboard/>
         </>
     )
