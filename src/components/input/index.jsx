@@ -1,24 +1,13 @@
-import React from 'react'
-import style from './style.module.css'
+import React from "react";
+import style from "./style.module.css";
 import { AiOutlineEyeInvisible, AiOutlineEye } from "react-icons/ai";
 
+export const CustomInput = ({ ...props }) => {
+  let type = props.type;
 
-
-
-export const CustomInput = ({ ...props}) => {
-    
-    let type = props.type
-  
-    return (
-        <div className={style.wrapper}>  
-
-            <input 
-                {...props}
-                type = {type}
-            />
-
-           
-         
-        </div>
-    )
-}
+  return (
+    <div className={style.wrapper}>
+      <input {...props} type={type} />
+    </div>
+  );
+};
