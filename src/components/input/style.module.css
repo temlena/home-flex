@@ -1,0 +1,21 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+
+.wrapper Input {
+    width: 60%;
+    border: 2px solid  #6F4E9D;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    /* max-width: calc(100% - 20px); */
+    height: 28px;
+}
+
+

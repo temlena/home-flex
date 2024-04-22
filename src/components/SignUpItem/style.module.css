@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+   
+}
+
+.FooterImageContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.FooterImageContainer img {
+    width: 55%;
+}
