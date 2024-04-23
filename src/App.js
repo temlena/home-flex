@@ -1,6 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import LandingPage from "./Pages/LandingPage";
 import DashboardPage from "./Pages/DashboardPage";
+import { SignInPage } from "./Pages/SignInPage";
+import { SignUpPage } from "./Pages/SignUpPage";
+import './App.css'
 
 // import Dashboard from "./components/Dashboard";
 // import Download from "./components/Download";
@@ -20,6 +23,8 @@ function App() {
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
         <Route path="/DashboardPage" element={<DashboardPage />} />
+        <Route path="/SignUpPage" element={<SignUpPage />} />
+        <Route path="/SignInPage" element={<SignInPage />} />
       </Routes>
     </Router>
 

@@ -1,0 +1,33 @@
+.AccountContainer {
+    margin: 80px 0;
+    background-color: #F3ECEC;
+    width: 35%
+}
+
+.heading5 {
+    text-align: center;
+    font-size: 31px;
+    font-weight: 600;
+    padding: 10px;
+    
+}
+
+
+.boxWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  33px 20px;
+}
+.IconContainer {
+    display: flex;
+    gap: 10px;
+}
+.IconImage {
+    align-self: center;
+}
+.description{
+    font-size: 20px;
+    font-weight: 600;
+    color: #17004a;
+}

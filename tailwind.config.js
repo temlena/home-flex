@@ -8,6 +8,7 @@ module.exports = {
       },
       fontFamily: {
         brico: "'Bricolage Grotesque', serif",
+        dmsans: " 'DM Sans', serif "
       },
       colors: {
         primary: "#17004A",
