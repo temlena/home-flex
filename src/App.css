@@ -1,14 +1,28 @@
 .btn {
-    background-color: #17004a;
-    width: 50%;
+    background-color: #01C598;
+    width: 70%;
     color: #fff;
     border: none;
     padding: 8px 20px;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
     font-size: 17px;
     text-transform: capitalize;
     font-weight: 500;
+    margin: 20px 0;
     /* margin-top: 135px; */
+  }
+  .btn-secondary {
+    border: 2px solid #01C598;
+    border-radius: 8px;
+    background: transparent;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    width: 100%;
+    color: #ACABAB;
+    margin: 10px 0;
   }
  
