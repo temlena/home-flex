@@ -4,32 +4,32 @@ import { CustomButton } from "../Button";
 import styles from "./style.module.css";
 import BackArrow from "../../assets/images/Arrow 2.svg";
 import facebook from "../../assets/facebook.svg";
-import google from '../../assets/icons/google-icon.svg'
-import { useNavigate } from 'react-router-dom';
+import google from "../../assets/icons/google-icon.svg";
+import { useNavigate } from "react-router-dom";
 
 export const SignUpItem = () => {
   const navigate = useNavigate();
 
   const handleBackClick = () => {
-    navigate('/')
+    navigate("/");
   };
 
   const handleSignIn = () => {
-    navigate('/SignInPage')
+    navigate("/SignInPage");
   };
   const handleFacebookLogin = () => {
-    window.location.href = 'https://www.facebook.com/login';
+    window.location.href = "https://www.facebook.com/login";
   };
 
   const handleGoogleLogin = () => {
-    window.location.href = 'https://accounts.google.com/login';
+    window.location.href = "https://accounts.google.com/login";
   };
 
   return (
     <div className={styles.container}>
       <div className={styles.boxcontainer}>
         <div className={styles.arrowwrapper}>
-          <img src={BackArrow} onClick={handleBackClick} />
+          <img src={BackArrow} onClick={handleBackClick} alt="" />
         </div>
         <div className={styles.getstarted}>
           <div className={styles.textcontainer}>
@@ -45,9 +45,7 @@ export const SignUpItem = () => {
             <CustomInput type="text" placeholder={"Full Name"} />
             <CustomInput type="Email" placeholder={"Email"} />
             <CustomInput type="password" placeholder={"Password"} />
-            <CustomButton type="login" >
-              Sign up
-            </CustomButton>
+            <CustomButton type="login">Sign up</CustomButton>
 
             <div className={styles.hrline}>
               <div className={styles.leftline}></div>
@@ -55,17 +53,18 @@ export const SignUpItem = () => {
               <div className={styles.rightline}></div>
             </div>
 
-            <CustomButton type="secondary"  >
-              <img src={facebook} onClick={handleFacebookLogin}/>
+            <CustomButton type="secondary">
+              <img src={facebook} onClick={handleFacebookLogin} alt="" />
               Continue with Facebook
             </CustomButton>
             <CustomButton type="secondary">
-            <img src={google}  onClick={handleGoogleLogin} />
+              <img src={google} onClick={handleGoogleLogin} alt="" />
               Continue with google
             </CustomButton>
-            
-            <p className={styles.parentpara}>Already Have an Account?
-            <a onClick={handleSignIn}> Sign In</a>
+
+            <p className={styles.parentpara}>
+              Already Have an Account?
+              <a href="/" onClick={handleSignIn}> Sign In</a>
             </p>
           </div>
         </div>
