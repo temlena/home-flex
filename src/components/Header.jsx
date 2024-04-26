@@ -10,7 +10,7 @@ export default function Header() {
       </Link>
 
       <div className=" flex items-center gap-2">
-        <ul className="flex justify-between gap-5">
+        <ul className="flex justify-between gap-9">
           <li className="list-none">
             <Link
               className="text-base text-text no-underline  hover:text-popular-colour "
@@ -21,7 +21,7 @@ export default function Header() {
           </li>
           <li className="list-none">
             <a
-              className=" font-medium text-base text-text no-underline hover:text-popular-colour "
+              className=" font-medium text-base text-text no-underline hover:text-popular-colour pr-9"
               href="#/list"
             >
               List a property

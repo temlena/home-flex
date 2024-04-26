@@ -4,6 +4,7 @@ import DashboardPage from "./Pages/DashboardPage";
 import { SignInPage } from "./Pages/SignInPage";
 import { SignUpPage } from "./Pages/SignUpPage";
 import './App.css'
+import { AboutHomeflexPage } from "./Pages/AboutHomeflexPage";
 
 // import Dashboard from "./components/Dashboard";
 // import Download from "./components/Download";
@@ -25,6 +26,7 @@ function App() {
         <Route path="/DashboardPage" element={<DashboardPage />} />
         <Route path="/SignUpPage" element={<SignUpPage />} />
         <Route path="/SignInPage" element={<SignInPage />} />
+        <Route path="/AboutHomeflexPage" element={<AboutHomeflexPage />} />
       </Routes>
     </Router>
 

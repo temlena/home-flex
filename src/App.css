@@ -10,8 +10,14 @@
     text-transform: capitalize;
     font-weight: 500;
     margin: 20px 0;
+    transition: all 0.3s ease-in-out
     /* margin-top: 135px; */
   }
+  .btn:active {
+    background-color: #17004a;
+
+  }
+
   .btn-secondary {
     border: 2px solid #01C598;
     border-radius: 8px;

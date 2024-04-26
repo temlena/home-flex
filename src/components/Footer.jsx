@@ -21,7 +21,7 @@ export default function Footer() {
               <a href="#/About"> About us</a>
             </li>
             <li className="my-1">
-              <a href="#/About">About Homeflex</a>
+              <a href="/AboutHomeflexPage">About Homeflex</a>
             </li>
             <li className="my-1">
               <a href="#/terms">Terms and conditions</a>
