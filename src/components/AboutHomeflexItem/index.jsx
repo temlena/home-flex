@@ -31,10 +31,10 @@ export const AboutHomeflexItem = () => {
 
         <div className={styles.familyContainer}>
           <div className={styles.image1}>
-            <img src={Family}/>
+            <img src={Family} alt="family"/>
           </div>
           <div className={styles.image2}>
-            <img src={House}/>
+            <img src={House} alt="house"/>
           </div>
         </div>
 
@@ -64,17 +64,17 @@ export const AboutHomeflexItem = () => {
           </div>
 
           <div className={styles.imageContainer}>
-            <img src={WhybgImage} className={styles.bgImage1} />
+            <img src={WhybgImage} className={styles.bgImage1} alt="bgImage"/>
 
-            <img src={WhyImage} className={styles.overlay1} />
+            <img src={WhyImage} className={styles.overlay1} alt="overlayImage" />
           </div>
         </div>
 
         <div className={styles.howContainer}>
           <div className={styles.imageContainer}>
-            <img src={HowbgImage} className={styles.bgImage} />
+            <img src={HowbgImage} className={styles.bgImage} alt="bgImage"/>
 
-            <img src={HowImage} className={styles.overlay} />
+            <img src={HowImage} className={styles.overlay}alt="overlayImage" />
           </div>
 
           <div className={styles.How}>

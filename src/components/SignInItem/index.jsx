@@ -13,9 +13,7 @@ export const SignInItem = () => {
   const handleBackClick = () => {
     navigate('/SignUpPage')// Go back to the previous page
   };
-  const handleSignUp = () => {
-    navigate('/SignUpPage')
-  };
+
   const handleFacebookLogin = () => {
     window.location.href = 'https://www.facebook.com/login';
     console.log('facebook handled!');
@@ -30,7 +28,7 @@ export const SignInItem = () => {
     <div className={styles.container}>
       <div className={styles.boxcontainer}>
         <div className={styles.arrowwrapper}>
-          <img src={BackArrow} onClick={handleBackClick} />
+          <img src={BackArrow} onClick={handleBackClick} alt="arrow" />
         </div>
         <div className={styles.getstarted}>
           <div className={styles.textcontainer}>
@@ -56,16 +54,16 @@ export const SignInItem = () => {
             </div>
 
             <CustomButton type="secondary" >
-              <img src={facebook} onClick={handleFacebookLogin}/>
+              <img src={facebook} onClick={handleFacebookLogin} alt="facebook"/>
               Continue with Facebook
             </CustomButton>
             <CustomButton type="secondary" >
-            <img src={google} onClick={handleGoogleLogin}/>
+            <img src={google} onClick={handleGoogleLogin} alt="google"/>
               Continue with google
             </CustomButton>
             
             <p className={styles.parentpara}>Don’t Have an Account?
-            <a onClick={handleSignUp}> Sign Up</a>
+            <a href="/SignUpPage" > Sign Up</a>
             </p>
           </div>
         </div>

@@ -7,6 +7,7 @@ export const FooterImage = () => {
     <div className={styles.footerimage}>
       <img src={BlockHouse} 
         className={styles.image}
+        alt="footerImage"
       />
     </div>
   );
