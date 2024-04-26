@@ -10,21 +10,21 @@ export default function Header() {
       </Link>
 
       <div className=" flex items-center gap-2">
-        <ul className="flex justify-between gap-5">
+        <ul className="flex justify-between gap-9">
           <li className="list-none">
             <Link
-              className="text-base text-text no-underline  hover:text-popular-colour "
-              to="/DashboardPage"
+              className="text-base text-text no-underline  hover:text-popular-colour hover:bg-white py-2 px-2 rounded"
+              to="/"
             >
-              Loan transaction
+              Our services
             </Link>
           </li>
           <li className="list-none">
             <a
-              className=" font-medium text-base text-text no-underline hover:text-popular-colour "
-              href="#/list"
+              className=" font-medium text-base text-text no-underline hover:text-popular-colour mr-9 hover:bg-white py-2 px-2 rounded"
+              href="/AboutHomeflexPage"
             >
-              List a property
+              About us
             </a>
           </li>
         </ul>

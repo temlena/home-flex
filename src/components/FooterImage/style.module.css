@@ -1,0 +1,10 @@
+.footerimage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.image {
+    width: 750px
+}

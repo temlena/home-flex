@@ -18,16 +18,14 @@ export default function Footer() {
         <div className=" font-normal text-sm">
           <ul>
             <li className="my-1">
-              <a href="#/About"> About us</a>
+              <a href="/AboutHomeflexPage"> About us</a>
             </li>
-            <li className="my-1">
-              <a href="#/About">About Homeflex</a>
-            </li>
+    
             <li className="my-1">
               <a href="#/terms">Terms and conditions</a>
             </li>
             <li className="my-1">
-              <a href="#/privacy policy">Privacy policy</a>
+              <a href="/PrivacyPolicyPage">Privacy policy</a>
             </li>
             <li>
               <a href="#/loan policy">Loan policy</a>

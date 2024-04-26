@@ -23,6 +23,7 @@ module.exports = {
         "title-colour": "#201F1F",
         "error": "#EF1515",
         "dashboard": "#E6ECF7",
+        "header-color": "#02c497"
       },
     },
   },

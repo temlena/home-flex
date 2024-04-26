@@ -28,7 +28,7 @@ export const ProfileItem = () => {
         <h5 className={styles.heading5}> Profile</h5>
         <hr />
         <div className={styles.wrapper}>
-          <img className={styles.camera} src={camaraIcon} />
+          <img className={styles.camera} src={camaraIcon} alt="camera"/>
         </div>
 
         <p className={styles.user}> Evangeline</p>

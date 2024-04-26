@@ -10,11 +10,11 @@ export const AccountItems = () => {
       {Data.map((Data) => (
         <div className={styles.boxWrapper}>
           <div className={styles.IconContainer}>
-            <img className={styles.IconImage} src={Data.svg} />
+            <img className={styles.IconImage} src={Data.svg} alt="icon" />
             <p className={styles.description}>{Data.text}</p>
           </div>
 
-          <img src={Data.forwardIcon} />
+          <img src={Data.forwardIcon} alt="icon"/>
         </div>
       ))}
     </div>

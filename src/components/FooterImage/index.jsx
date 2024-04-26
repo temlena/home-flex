@@ -1,9 +1,14 @@
-import React from 'react'
-import BlockHouse from '../../assets/images/block-house-removebg-preview.png'
-
+import React from "react";
+import BlockHouse from "../../assets/images/block-house-removebg-preview.png";
+import styles from "./style.module.css";
 
 export const FooterImage = () => {
-    return(
-        <img src={BlockHouse}/>
-    )
-}
+  return (
+    <div className={styles.footerimage}>
+      <img src={BlockHouse} 
+        className={styles.image}
+        alt="footerImage"
+      />
+    </div>
+  );
+};
