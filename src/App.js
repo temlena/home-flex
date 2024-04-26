@@ -5,7 +5,7 @@ import { SignInPage } from "./Pages/SignInPage";
 import { SignUpPage } from "./Pages/SignUpPage";
 import './App.css'
 import { AboutHomeflexPage } from "./Pages/AboutHomeflexPage";
-
+import { PrivacyPolicyPage } from "./Pages/PrivacyPolicyPage";
 // import Dashboard from "./components/Dashboard";
 // import Download from "./components/Download";
 // import Features from "./components/FeatureListing";
@@ -27,6 +27,7 @@ function App() {
         <Route path="/SignUpPage" element={<SignUpPage />} />
         <Route path="/SignInPage" element={<SignInPage />} />
         <Route path="/AboutHomeflexPage" element={<AboutHomeflexPage />} />
+        <Route path="/PrivacyPolicyPage" element={<PrivacyPolicyPage />} />
       </Routes>
     </Router>
 

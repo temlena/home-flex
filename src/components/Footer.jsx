@@ -27,7 +27,7 @@ export default function Footer() {
               <a href="#/terms">Terms and conditions</a>
             </li>
             <li className="my-1">
-              <a href="#/privacy policy">Privacy policy</a>
+              <a href="/PrivacyPolicyPage">Privacy policy</a>
             </li>
             <li>
               <a href="#/loan policy">Loan policy</a>

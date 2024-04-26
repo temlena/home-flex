@@ -1,0 +1,85 @@
+.PrivacyPolicyWrapper {
+    width: 100%; 
+    height: 100%;
+
+
+}
+.PolicyWrapper {
+    width: 100%;
+}
+.PrivacyPolicy {
+    display: flex;
+    padding: 70px;
+    gap: 80px;
+}
+
+
+.PrivacyPolicytext {
+    width: 70%;
+    
+}
+.scrollbar {
+    width:25%;
+    height: 100% ;
+    /* background-color: rgb(42, 122, 165); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 0 40px 0;
+}
+.scroll {
+    width: 100%;
+    height: 500px;
+    background-color: #EBE6E6;
+    padding: 20px;
+    overflow-y: scroll;
+    scrollbar-arrow-color: #666666 ;
+    
+}
+.scroll::-webkit-scrollbar-track  {
+    background-color: #666666;
+}
+.textscroll {
+    width: 100%;
+    height: 500px;
+    overflow-y: scroll;
+
+}
+.textscroll::-webkit-scrollbar {
+    width: 0; 
+    background: transparent;
+  }
+
+.scroll ul li {
+padding: 40px 0;
+color: #212529;
+/* font-size: 14px; */
+}
+.scroll a {
+    padding: 40px 0;
+color: #212529;
+}
+.title {
+    font-size: 36px;
+    color: #01C598;
+    font-weight: 700;
+}
+.description {
+color: #212529;
+font-size: 20px;
+padding-bottom: 30px;
+}
+.heading3 {
+    font-size: 31.25px;
+    color: #212529;
+    font-weight: 600;
+    padding-bottom: 5px ;
+    
+}
+.para1 {
+    font-size: 16px;
+    color: #212529;
+    font-weight: 400;
+    padding-bottom: 40px;
+    text-align: justify;
+}
