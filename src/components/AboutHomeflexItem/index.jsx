@@ -7,6 +7,8 @@ import WhyImage from "../../assets/images/onboarding image1.png";
 import HowbgImage from "../../assets/images/backgroundimage2.png";
 import HowImage from "../../assets/images/onboarding image2.png";
 import { FooterImage } from "../FooterImage"
+import House from "../../assets/images/house3.jpg"
+import Family from "../../assets/images/pngtree-happy-black-family-with-baby-png-image_11518385.png"
 
 
 export const AboutHomeflexItem = () => {
@@ -26,14 +28,16 @@ export const AboutHomeflexItem = () => {
             on your financial journey.
           </p>
         </div>
-        {/* <div className={imageContainer}>
-          <div className={image1}>
-            <img src={BlockHouse}/>
+
+        <div className={styles.familyContainer}>
+          <div className={styles.image1}>
+            <img src={Family}/>
           </div>
-          <div className={image1}>
-            <img src={BlockHouse}/>
+          <div className={styles.image2}>
+            <img src={House}/>
           </div>
-        </div> */}
+        </div>
+
       </div>
       <div className={styles.missioncontainer}>
         <div className={styles.mission}>
