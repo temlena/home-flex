@@ -32,7 +32,7 @@ export const PrivacyPolicyItem = () => {
 
         <div className={styles.PrivacyPolicytext}>
           <div className={styles.PolicyWrapper}>
-            <h2 className={styles.title}>PrivacyPolicy</h2>
+            <h2 className={styles.title}>Privacy Policy</h2>
             <p className={styles.description}>Version date: 18 April 2024</p>
           </div>
           <div className={styles.textscroll}>
