@@ -1,5 +1,6 @@
 import React from "react";
-import { CustomInput } from "../input";
+import { Formik, Form, Field, ErrorMessage } from "formik";
+import * as Yup from "yup";
 import { CustomButton } from "../Button";
 import styles from "./style.module.css";
 import BackArrow from "../../assets/images/Arrow 2.svg";
@@ -8,6 +9,14 @@ import google from '../../assets/icons/google-icon.svg'
 import { useNavigate } from 'react-router-dom';
 
 export const SignInItem = () => {
+  const validationSchema = Yup.object({
+    email: Yup.string()
+      .email("Invalid email address")
+      .required("Email is required"),
+    password: Yup.string()
+      .required("Password is required")
+      .min(8, "Password must be at least 8 characters long"),
+  });
   const navigate = useNavigate();
 
   const handleBackClick = () => {
@@ -41,8 +50,42 @@ export const SignInItem = () => {
             </div>
           </div>
           <div className={styles.box}>
-            <CustomInput type="Email" placeholder={"Email"} />
-            <CustomInput type="password" placeholder={"Password"} />
+            <Formik initialValues={{
+                email: "",
+                password: "",
+              }}
+              validationSchema={validationSchema}
+              >
+              <Form className="w-full">
+              <Field
+                  className=" my-2 p-6 w-full h-5 rounded bg-transparent border-[#01C598] border-2 text-text"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                />
+                <ErrorMessage
+                  name="email"
+                  component="div"
+                  className="text-error"
+                />
+                <Field
+                  className=" my-2 p-6 w-full h-5 rounded bg-transparent border-[#01C598] border-2 text-text"
+                  type="password"
+                  id="password"
+                  maxLength={8}
+                  name="password"
+                  placeholder="Password"
+                />
+                <ErrorMessage
+                  name="password"
+                  component="div"
+                  className="text-error"
+                />
+                
+              </Form>
+            </Formik>
+
             <CustomButton type="login" >
               Sign in
             </CustomButton>
