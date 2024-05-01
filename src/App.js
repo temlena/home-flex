@@ -6,6 +6,7 @@ import { SignUpPage } from "./Pages/SignUpPage";
 import './App.css'
 import { AboutHomeflexPage } from "./Pages/AboutHomeflexPage";
 import { PrivacyPolicyPage } from "./Pages/PrivacyPolicyPage";
+import { ContactPage } from "./Pages/ContactPage"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/SignInPage" element={<SignInPage />} />
         <Route path="/AboutHomeflexPage" element={<AboutHomeflexPage />} />
         <Route path="/PrivacyPolicyPage" element={<PrivacyPolicyPage />} />
+        <Route path="/ContactPage" element={<ContactPage />} />
       </Routes>
     </Router>
   );

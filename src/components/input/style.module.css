@@ -10,26 +10,18 @@
 }
 
 .wrapper Input {
-    border: 2px solid #01C598;
+    border: 2px solid grey;
     border-radius: 8px;
-    background: transparent;
+    background: #fff;
     padding: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
     height: 38px;
     width: 100%;
-    color: #fff;
+    color: blue;
 
 }
 
-.eye-icon {
-  
-    position: absolute;
-    color: #fff;
-    top: 35%;
-    right: 8px;
-  
-}
 
 
 

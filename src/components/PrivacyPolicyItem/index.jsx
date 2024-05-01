@@ -2,10 +2,14 @@ import React from "react";
 import Footer from "../Footer";
 import { FooterImage } from "../FooterImage";
 import styles from "./style.module.css";
+import Header from "../Header"
+
+
 
 export const PrivacyPolicyItem = () => {
   return (
     <div className={styles.PrivacyPolicyWrapper}>
+          <Header />
       <div className={styles.PrivacyPolicy}>
         <div className={styles.scrollbar}>
           <div className={styles.scroll}>
