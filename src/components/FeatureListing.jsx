@@ -23,7 +23,7 @@ export default function Features() {
 
         <div className="flex justify-between py-8 gap-4 ">
           {featureData.map((feature) => (
-            <div className="rounded p-2 w-80 border-green ">
+            <div className="rounded p-2 w-80 border-red overflow-hidden">
               <div className="">
                 <img
                   className="w-80 h-60"

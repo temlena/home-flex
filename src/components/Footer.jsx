@@ -48,7 +48,7 @@ export default function Footer() {
               <a href="#/About">Support</a>
             </li>
             <li className="my-1">
-              <a href="#/conntact">Contact us</a>
+              <a href="/ContactPage">Contact us</a>
             </li>
             <li className="my-1">
               <a href="#/faq">FAQ</a>

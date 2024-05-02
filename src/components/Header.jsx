@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header className="flex bg-primary justify-between items-center p-8 h-10 ">
+    <header className="flex bg-primary justify-between items-center p-5 h-26 ">
       <Link to="/">
         {" "}
-        <img className="w-20" src={homeflex} alt="homeflex logo" />
+        <img className="w-21 h-16" src={homeflex} alt="homeflex logo" />
       </Link>
 
       <div className=" flex items-center gap-2">

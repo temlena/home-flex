@@ -1,4 +1,4 @@
-.btn {
+.btn, .btn-variant {
     background-color: #01C598;
     width: 70%;
     color: #fff;
@@ -31,4 +31,15 @@
     color: #ACABAB;
     margin: 10px 0;
   }
- 
+ .btn-tertiary {
+  background-color: #17004a;
+  color: #fff;
+  height: 38px;
+  margin: 12px 0;
+  width: 55%;
+  border-radius: 8px;
+  font-size: 18px;
+ }
+ .btn-variant {
+  width: 100%;
+ }

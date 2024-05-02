@@ -6,7 +6,9 @@ import React from 'react';
 export const CustomButton = (props) => {
     const classNames = {
         primary: 'btn',
-        secondary: 'btn-secondary'
+        secondary: 'btn-secondary',
+        tertiary: 'btn-tertiary',
+        variant: 'btn-variant'
        
     }
 
